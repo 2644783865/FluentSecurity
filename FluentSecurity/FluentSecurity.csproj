@@ -65,9 +65,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\SharedAssemblyInfo.cs">
-      <Link>Properties\SharedAssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Caching\By.cs" />
     <Compile Include="Caching\PolicyResultCacheStrategy.cs" />
     <Compile Include="Caching\ICacheKeyProvider.cs" />

@@ -76,9 +76,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\SharedAssemblyInfo.cs">
-      <Link>Properties\SharedAssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecurityConfigurationTestsStyle1.cs">
       <SubType>Code</SubType>
@@ -112,7 +109,7 @@
       <Name>FluentSecurity</Name>
     </ProjectReference>
     <ProjectReference Include="..\FluentSecurity.SampleApplication\FluentSecurity.SampleApplication.csproj">
-      <Project>{C061FCA0-BF28-4803-B55B-F8725DAF3EA1}</Project>
+      <Project>{c061fca0-bf28-4803-b55b-f8725daf3ea1}</Project>
       <Name>FluentSecurity.SampleApplication</Name>
     </ProjectReference>
   </ItemGroup>
